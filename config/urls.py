@@ -19,6 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', include('apps.resources.urls')) #'empty' url means look at apps.resources.urls
+    path('', include('apps.resources.urls')), #'empty' url means look at apps.resources.urls for more information on where to map to
+    path('user/', include('apps.user.urls'))
 ]
 

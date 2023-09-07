@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>Welcome to ResourceShare</1>
+        <p>{{cnt}} resources and counting!</p>
+
+        <h3>Number of active Users</h3>
+        <p>We got {{act_use}} active Users in here</p>
+
+        <h3>Amount of resources per Category</h3>
+        <ol>
+            {% for res_cat in res_per_cat %}
+            <li>{{res_cat.cat_id__cat}}: {{res_cat.cnt}}</li>
+            {% endfor %}
+        </ol>
+    </body>
+</html>
