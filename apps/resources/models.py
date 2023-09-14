@@ -12,7 +12,7 @@ class Tag(CreatedModifiedDateTimeBase):
         return self.name
     
 class Category(CreatedModifiedDateTimeBase):
-    cat= models.CharField(max_length=50)
+    cat = models.CharField(max_length=50)
     
     class Meta:
         verbose_name_plural = "Categories"
@@ -34,17 +34,11 @@ class Resources(CreatedModifiedDateTimeBase):
 
     def __str__(self):
         return f"{self.user_id.username} - {self.title}"
-
-    @property
-    def username(self):
-        return self.user_id.username
-    
-    def user_title(self):
-        return self.user_id.title
     
     def all_tags(self):
         return ", ".join([tag.name for tag in self.tags.all()])
     
+
 class ResourcesTag(CreatedModifiedDateTimeBase):
     modified_at = None
     resources_id=models.ForeignKey("resources.Resources", on_delete=models.CASCADE)

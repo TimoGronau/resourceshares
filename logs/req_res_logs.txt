@@ -1,0 +1,391 @@
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info]  
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] 200 | b'\n\n<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset="utf-8">\n        <meta http-equiv="X-UA-Compatible" content="IE=edge">\n        <title>ResourceShare - Home </title>\n        <meta name="description" content="">\n        <meta name="viewport" content="width=device-width, initial-scale=1">\n        \n        <link rel="stylesheet" href="/static/css/main.css">\n        \n        \n        <script src="/static/js/main.js"></script>\n        \n    </head>\n    <body>\n        <div class="container">\n        <main>\n        \n<h1>Welcome to ResourceShare</1>\n    <p>11 resources and counting!</p>\n\n    <h3>Number of active Users</h3>\n    <p>We got 6 active Users in here</p>\n\n    <h3>Amount of resources per Category</h3>\n    <ol>\n        \n        <li>Programming Languages: 8</li>\n        \n        <li>APIs: 1</li>\n        \n        <li>Databases: 2</li>\n        \n    </ol>\n\n        </main>\n        <footer></footer>\n    </body>\n</html>' | 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] 200 | b'\n\n<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset="utf-8">\n        <meta http-equiv="X-UA-Compatible" content="IE=edge">\n        <title>ResourceShare - Home </title>\n        <meta name="description" content="">\n        <meta name="viewport" content="width=device-width, initial-scale=1">\n        \n        <link rel="stylesheet" href="/static/css/main.css">\n        \n        \n        <script src="/static/js/main.js"></script>\n        \n    </head>\n    <body>\n        <div class="container">\n        <main>\n        \n<h1>Welcome to ResourceShare</1>\n    <p>11 resources and counting!</p>\n\n    <h3>Number of active Users</h3>\n    <p>We got 6 active Users in here</p>\n\n    <h3>Amount of resources per Category</h3>\n    <ol>\n        \n        <li>Programming Languages: 8</li>\n        \n        <li>APIs: 1</li>\n        \n        <li>Databases: 2</li>\n        \n    </ol>\n\n        </main>\n        <footer></footer>\n    </body>\n</html>' | 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.026306 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.036599 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.030632 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.003543 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.002629 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.053048 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:26:35 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/auth/group/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.039527 >> GET | 127.0.0.1:8000/admin/auth/group/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:26:38 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.022443 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.012374 >> GET | 127.0.0.1:8000/favicon.ico 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.036764 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:26:39 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.083412 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.167168 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.007130 >> GET | 127.0.0.1:8000/favicon.ico 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.099558 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.042305 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:30:43 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/category/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.035903 >> GET | 127.0.0.1:8000/admin/resources/category/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:30:45 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.018262 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.027275 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:30:46 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.085257 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.138444 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.082676 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.089726 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.097388 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.041785 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:32:00 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.161301 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.152200 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.033577 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:32:35 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.085407 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.145995 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.084152 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.033401 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:33:58 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.078689 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.085047 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.036921 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:35:14 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.076689 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.110963 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.072166 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.117934 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.083436 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.037011 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:39:08 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.088012 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.130499 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.083457 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.028257 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:39:31 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.092494 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.091183 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:41:26 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.022463 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/11/change/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.078447 >> GET | 127.0.0.1:8000/admin/resources/resources/11/change/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:41:39 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.018422 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.046762 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:41:46 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/7/change/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.033613 >> GET | 127.0.0.1:8000/admin/resources/resources/7/change/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:41:51 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.021538 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.047370 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:41:54 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] POST | 127.0.0.1:8000/admin/resources/resources/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.064257 >> POST | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] POST | 127.0.0.1:8000/admin/resources/resources/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.052653 >> POST | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.047138 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:42:30 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.048447 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:42:34 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.018598 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] POST | 127.0.0.1:8000/admin/resources/resources/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.054261 >> POST | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.052470 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:43:05 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/8/change/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.041164 >> GET | 127.0.0.1:8000/admin/resources/resources/8/change/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/8/change/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.063332 >> GET | 127.0.0.1:8000/admin/resources/resources/8/change/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/8/change/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.045090 >> GET | 127.0.0.1:8000/admin/resources/resources/8/change/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.055688 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:44:14 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.038112 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:44:17 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.016529 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] POST | 127.0.0.1:8000/admin/resources/resources/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.056387 >> POST | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.038605 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:44:27 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.134521 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.094794 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:44:47 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.019028 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.029232 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.053674 >> GET | 127.0.0.1:8000/admin/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:56:30 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.057195 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:56:32 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.018478 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.007317 >> GET | 127.0.0.1:8000/favicon.ico 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/11/change/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.078539 >> GET | 127.0.0.1:8000/admin/resources/resources/11/change/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:56:34 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.016028 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.047030 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:56:37 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.092183 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:57:34 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.020403 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/11/change/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.137530 >> GET | 127.0.0.1:8000/admin/resources/resources/11/change/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:57:40 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.021703 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.055387 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:57:42 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/9/change/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.036948 >> GET | 127.0.0.1:8000/admin/resources/resources/9/change/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:57:43 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.015934 >> GET | 127.0.0.1:8000/admin/jsi18n/ 
+[info] 200 | {'Content-Type': 'text/javascript; charset="utf-8"'} 
+[info] GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.070857 >> GET | 127.0.0.1:8000/admin/resources/resources/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Wed, 13 Sep 2023 11:57:45 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.026256 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.008426 >> GET | 127.0.0.1:8000/favicon.ico 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.017924 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.004581 >> GET | 127.0.0.1:8000/favicon.ico 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.005359 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.018698 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.003955 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/home | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.007903 >> GET | 127.0.0.1:8000/home 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.007156 >> GET | 127.0.0.1:8000/favicon.ico 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.022579 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.006645 >> GET | 127.0.0.1:8000/favicon.ico 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.018894 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] POST | 127.0.0.1:8000/resource/post/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.053813 >> POST | 127.0.0.1:8000/resource/post/ 
+[info] 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': 'http://127.0.0.1:8000/'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.015484 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.021374 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.003438 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.004241 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.027765 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.004277 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.003964 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.002654 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.025609 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.097819 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.062789 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.019403 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.005712 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.077379 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.027443 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.087580 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.028286 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.020135 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.025308 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.004227 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.004300 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.003696 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.007635 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.026272 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.023109 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.008260 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 

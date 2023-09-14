@@ -1,0 +1,5 @@
+{% load custom_filter %} {% if data.is_active%}
+<span class="active">{{data.username|cap_all_but_upper_first}}</span>
+{% else %}
+<span class="inactive">{{data.username|cap_all_but_upper_first}}</span>
+{% endif %}

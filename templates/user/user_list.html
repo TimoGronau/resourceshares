@@ -1,13 +1,16 @@
-{% load custom_filter %}
-<html>
-    <body>
-        <div>
-            <span>We are proud of our {{users|length}} users </span>
+{% extends 'base.html' %}
 
-            <ul>
-                {% for user in users%}
-                <li>{{user.username|cap_all_but_upper_first}}</li>
-                {%endfor%}
-            </ul>
-    </body>
-</html>
+
+
+{% block title  %}{{block.super}} - Users {% endblock title %}
+
+{% block content %}
+    <span>We are proud of our {{users|length}} users </span>
+
+    <ul>
+        {% for user in users%}
+        <li>{% include 'includes/style_act_user.html' with data=user %}</li>
+        {%endfor%}
+    </ul>
+{% endblock content %}
+

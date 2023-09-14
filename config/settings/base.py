@@ -34,6 +34,8 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "apps.core.middleware.logging.simple_logging_middleware",
+    "apps.core.middleware.logging.ViewExecutionTimeMiddleware2"
 ]
 
 ROOT_URLCONF = "config.urls"
@@ -80,6 +82,7 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = "/static/"
+STATICFILES_DIRS = [str(BASE_DIR / "static")]
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 

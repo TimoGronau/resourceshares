@@ -1,30 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{{ res.title }}</title>
-</head>
-<body>
-    <h1>{{ res.title }}</h1>
-    <p><b>Uploader</b>: {{ res.user_id }}</p>
-    <p><b>Link</b>: {{ res.link }}</p>
-    <p><b>Description</b>: {{ res.description }}</p>
-    <p><b>Category</b>: {{ res.cat_id }}</p>
-    <p><b>Number of reviews</b>: {{ reviews }}</p>
-    <p><b>Date of upload</b>: {{ res.created_at|date:"M,d,Y" }}</p>
-    <p><b>Average rating</b>: 
-        {% if average_rating == 0 %}
-            None
-        {% else %}
-            {{ average_rating }}
-        {% endif %}
-    </p>    
-    <p><b>Tags</b>:
-        <ul>
-            {% for resource_tag in resource_tags %}
-                <li>{{ resource_tag.tag_id.name }}</li>
-            {% endfor %}
-        </ul>
-    </p>
-</body>
-</html>
+
+{% extends 'base.html' %}
+
+{% block title  %}{{block.super}} - {{res.title}} {% endblock title %}
+
+{% block content %}
+<h1>{{ res.title }}</h1>
+<p><b>Uploader</b>: {{ res.user_id }}</p>
+<p><b>Link</b>: {{ res.link }}</p>
+<p><b>Description</b>: {{ res.description }}</p>
+<p><b>Category</b>: {{ res.cat_id }}</p>
+<p><b>Number of reviews</b>: {{ reviews }}</p>
+<p><b>Date of upload</b>: {{ res.created_at|date:"M,d,Y" }}</p>
+<p><b>Average rating</b>: 
+    {% if average_rating == 0 %}
+        None
+    {% else %}
+        {{ average_rating }}
+    {% endif %}
+</p>    
+<p><b>Tags</b>:
+    <ul>
+        {% for resource_tag in resource_tags %}
+            <li>{{ resource_tag.tag_id.name }}</li>
+        {% endfor %}
+    </ul>
+</p>
+{% endblock content %}
 

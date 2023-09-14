@@ -11,6 +11,12 @@ class CustomResources(admin.ModelAdmin):
         "description",
     )
     
+    def username(self, obj):
+        return obj.user_id.username
+
+    def user_title(self,obj):
+        return obj.user_id.title
+        
     @admin.display(description="Tags")
     def get_tags(self, obj):
         return ", ".join([tag.name for tag in obj.tags.all()])

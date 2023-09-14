@@ -1,10 +1,12 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.generic import TemplateView
 from django.db.models import Count, Avg
+from django.views import View
 
 from .models import Resources, Category, ResourcesTag, Review, Rating
 from apps.user.models import User
+from .form import PostResourceForm
 from .utils import generate_cat_count_list
 
 def home_page(request):
@@ -35,6 +37,34 @@ def resource_detail(request, id):
     
     return render(request, 'resources/resource_detail.html',context)
     
+    
+
+class ResourcePostView(View):
+    template_name = "resources/resource_post.html"
+
+    def get(self, request):
+        form = PostResourceForm()
+        return render(
+            request,
+            self.template_name,
+            {"form": form},
+        )
+
+    def post(self, request):
+        form = PostResourceForm(request.POST)
+        if form.is_valid():
+            data = form.cleaned_data
+            new_resource = Resources.objects.create(**data)
+            new_resource.user_id = User.objects.get(pk=1)
+            new_resource.save()
+            return redirect("http://127.0.0.1:8000/")
+
+        return render(
+            request,
+            self.template_name,
+            {"form": form},
+        )
+
 
 class HomePage(TemplateView):
     template_name = 'home_page.html'
