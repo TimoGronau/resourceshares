@@ -20,7 +20,7 @@ jobs:
       matrix:
         python-version: ["3.11"]
     env: #defines environment variables; see also github add secrets/variables
-        DB_NAME: ${{ secrets.DB_NAME}}
+        DB_NAME: ${{ secrets.DB_NAME }}
         DB_USER: ${{secrets.DB_USER}}
         DB_PASSWORD: ${{secrets.PASSWORD}}
         DB_HOST: ${{vars.DB_HOST}}
