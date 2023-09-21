@@ -26,7 +26,7 @@ jobs:
         DB_HOST: ${{vars.DB_HOST}}
         DB_PORT: ${{vars.DB_PORT}}
         SECRET_KEY: ${{secrets.SECRET_KEY}}
-
+#nothing
     services:
       postgres_main:
         image: postgres:15
