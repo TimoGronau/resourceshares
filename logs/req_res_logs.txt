@@ -801,3 +801,33 @@ INFO 2023-09-19 13:26:14,316 log :: GET | testserver/resource/1 | text/plain | M
 INFO 2023-09-19 13:26:14,317 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
 INFO 2023-09-19 13:26:15,126 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
 INFO 2023-09-19 13:26:15,139 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:18:31,645 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:18:31,652 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:18:31,963 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:18:31,965 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:18:32,572 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:18:32,575 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:18:32,877 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:18:32,878 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-21 10:18:33,491 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:18:33,498 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:19:38,323 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:19:38,329 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:19:38,630 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:19:38,633 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:19:39,269 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:19:39,271 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:19:39,569 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:19:39,569 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-21 10:19:40,184 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:19:40,190 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:19:56,200 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:19:56,208 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:19:56,546 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:19:56,549 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:19:57,216 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:19:57,218 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-21 10:19:57,517 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:19:57,518 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-21 10:19:58,156 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-21 10:19:58,164 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
