@@ -1,5 +1,4 @@
 from django.db import models
-from django.contrib.postgres.fields import ArrayField
 from apps.resources import validators
 from apps.core.models import CreatedModifiedDateTimeBase
 

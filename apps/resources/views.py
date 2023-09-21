@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.generic import TemplateView
 from django.db.models import Count, Avg
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.decorators import login_required
 from django.views import View
 
 from .models import Resources, Category, ResourcesTag, Review, Rating
@@ -23,23 +25,36 @@ def home_page(request):
     return render(request,"resources/home.html", context)
 
 
-def resource_detail(request, id):
-    res = Resources.objects.get(pk=id)
-    resource_tags = ResourcesTag.objects.filter(resources_id=res)
-    reviews = Review.objects.filter(resources_id=res).count()
-    average_rating = Rating.objects.filter(resources_id=res).aggregate(avg_rating=Avg("rate"))["avg_rating"]
-    context = {
-        'res': res, 
-        'resource_tags': resource_tags,
-        'reviews': reviews,
-        'average_rating': average_rating,
-    }
-    
-    return render(request, 'resources/resource_detail.html',context)
-    
-    
+class ResourceDetailView(LoginRequiredMixin,View):
+    max_viewed_resources = 5
+    template_name = 'resources/resource_detail.html'
 
-class ResourcePostView(View):
+    def get(self, request, id):
+        viewed_resources = request.session.get("viewed_resources", [])
+        res = Resources.objects.get(pk=id)
+        viewed_resource = [id, res.title]
+
+        if viewed_resource in viewed_resources:
+            viewed_resources.remove(viewed_resource)
+        viewed_resources.insert(0, viewed_resource)
+        
+        viewed_resources = viewed_resources[:self.max_viewed_resources]
+        request.session["viewed_resources"] = viewed_resources
+
+        resource_tags = ResourcesTag.objects.filter(resources_id=res)
+        reviews = Review.objects.filter(resources_id=res).count()
+        average_rating = Rating.objects.filter(resources_id=res).aggregate(avg_rating=Avg("rate"))["avg_rating"]
+
+        context = {
+            'res': res,
+            'resource_tags': resource_tags,
+            'reviews': reviews,
+            'average_rating': average_rating,
+        }
+
+        return render(request, self.template_name, context)
+
+class ResourcePostView(LoginRequiredMixin, View):
     template_name = "resources/resource_post.html"
 
     def get(self, request):
@@ -51,7 +66,7 @@ class ResourcePostView(View):
         )
 
     def post(self, request):
-        form = PostResourceForm(request.POST)
+        form = PostResourceForm(data=request.POST)
         if form.is_valid():
             data = form.cleaned_data
             new_resource = Resources.objects.create(**data)

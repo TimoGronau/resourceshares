@@ -389,3 +389,415 @@
 [info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
 [info] EXECUTION TIME 0:00:00.008260 >> GET | 127.0.0.1:8000/resource/post/ 
 [info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.036580 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/profile | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.016498 >> GET | 127.0.0.1:8000/profile 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.011797 >> GET | 127.0.0.1:8000/user/profile 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.002418 >> GET | 127.0.0.1:8000/user/profile/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/login | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.005618 >> GET | 127.0.0.1:8000/user/login 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/login/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.037713 >> GET | 127.0.0.1:8000/user/login/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/login/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.014859 >> GET | 127.0.0.1:8000/user/login/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.048473 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/account/login | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.013346 >> GET | 127.0.0.1:8000/account/login 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/login/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.009235 >> GET | 127.0.0.1:8000/user/login/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/account/login/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.006919 >> GET | 127.0.0.1:8000/account/login/ 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/accounts/login/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.016677 >> GET | 127.0.0.1:8000/accounts/login/ 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.041130 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.051003 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.062599 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.032943 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.034677 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/login/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.006657 >> GET | 127.0.0.1:8000/user/login/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] POST | 127.0.0.1:8000/user/login/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.006394 >> POST | 127.0.0.1:8000/user/login/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] POST | 127.0.0.1:8000/user/login/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.002598 >> POST | 127.0.0.1:8000/user/login/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] POST | 127.0.0.1:8000/user/login/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.002651 >> POST | 127.0.0.1:8000/user/login/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] POST | 127.0.0.1:8000/user/login/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.022007 >> POST | 127.0.0.1:8000/user/login/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] POST | 127.0.0.1:8000/user/login/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.868462 >> POST | 127.0.0.1:8000/user/login/ 
+[info] 500 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] POST | 127.0.0.1:8000/user/login/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.008392 >> POST | 127.0.0.1:8000/user/login/ 
+[info] 403 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/login/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.027297 >> GET | 127.0.0.1:8000/user/login/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] POST | 127.0.0.1:8000/user/login/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.856070 >> POST | 127.0.0.1:8000/user/login/ 
+[info] 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/profile/'} 
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.001119 >> GET | 127.0.0.1:8000/user/profile/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.004456 >> GET | 127.0.0.1:8000/user/profile/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.004596 >> GET | 127.0.0.1:8000/user/profile/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.022546 >> GET | 127.0.0.1:8000/user/profile/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.027298 >> GET | 127.0.0.1:8000/user/profile/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.011873 >> GET | 127.0.0.1:8000/favicon.ico 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.008485 >> GET | 127.0.0.1:8000/resource/ 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resources | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.009800 >> GET | 127.0.0.1:8000/resources 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.046946 >> GET | 127.0.0.1:8000/resource/post/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/profile | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.007528 >> GET | 127.0.0.1:8000/profile 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.006176 >> GET | 127.0.0.1:8000/favicon.ico 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.012148 >> GET | 127.0.0.1:8000/user/profile 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.017244 >> GET | 127.0.0.1:8000/user/profile/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/details | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.004454 >> GET | 127.0.0.1:8000/resource/details 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/detail | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.010593 >> GET | 127.0.0.1:8000/resource/detail 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/details | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.007687 >> GET | 127.0.0.1:8000/resource/details 
+[info] 404 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/1 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[warning] EXECUTION TIME 0:00:00.057542 >> GET | 127.0.0.1:8000/resource/1 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/2 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.031371 >> GET | 127.0.0.1:8000/resource/2 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/3 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.041605 >> GET | 127.0.0.1:8000/resource/3 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.017641 >> GET | 127.0.0.1:8000/user/profile/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.020382 >> GET | 127.0.0.1:8000/user/profile/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/user/profile/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.026478 >> GET | 127.0.0.1:8000/user/profile/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.039385 >> GET | 127.0.0.1:8000/ 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+[info] GET | 127.0.0.1:8000/resource/1 | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0 
+[info] EXECUTION TIME 0:00:00.031467 >> GET | 127.0.0.1:8000/resource/1 
+[info] 200 | {'Content-Type': 'text/html; charset=utf-8'} 
+GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+200 | {'Content-Type': 'text/html; charset=utf-8'}
+GET | 127.0.0.1:8000/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/post/'}
+GET | 127.0.0.1:8000/user/login/?next=/resource/post/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+200 | {'Content-Type': 'text/html; charset=utf-8'}
+GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/admin/login/?next=/admin/', 'Expires': 'Fri, 15 Sep 2023 08:55:06 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private'}
+GET | 127.0.0.1:8000/admin/login/?next=/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Fri, 15 Sep 2023 08:55:06 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'}
+GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/admin/login/?next=/admin/', 'Expires': 'Fri, 15 Sep 2023 08:56:33 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private'}
+GET | 127.0.0.1:8000/admin/login/?next=/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Fri, 15 Sep 2023 08:56:33 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'}
+GET | 127.0.0.1:8000/admin | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+404 | {'Content-Type': 'text/html; charset=utf-8'}
+GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/admin/login/?next=/admin/', 'Expires': 'Fri, 15 Sep 2023 09:00:55 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private'}
+GET | 127.0.0.1:8000/admin/login/?next=/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Fri, 15 Sep 2023 09:00:55 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'}
+GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+GET | 127.0.0.1:8000/admin/login/?next=/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 09:16:30,685 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 09:16:30,722 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-15 09:16:40,673 log :: GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 09:16:40,705 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/admin/login/?next=/admin/', 'Expires': 'Fri, 15 Sep 2023 09:16:40 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private'}
+INFO 2023-09-15 09:16:40,713 log :: GET | 127.0.0.1:8000/admin/login/?next=/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 09:16:40,735 log :: 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Fri, 15 Sep 2023 09:16:40 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'}
+INFO 2023-09-15 12:45:56,677 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 12:45:56,708 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-15 12:46:16,894 log :: GET | 127.0.0.1:8000/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 12:46:16,911 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/admin/login/?next=/admin/', 'Expires': 'Fri, 15 Sep 2023 12:46:16 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private'}
+INFO 2023-09-15 12:46:16,920 log :: GET | 127.0.0.1:8000/admin/login/?next=/admin/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-15 12:46:16,934 log :: 200 | {'Content-Type': 'text/html; charset=utf-8', 'Expires': 'Fri, 15 Sep 2023 12:46:16 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store, must-revalidate, private', 'Vary': 'Cookie'}
+INFO 2023-09-19 07:14:12,464 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+INFO 2023-09-19 07:14:12,495 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:17:55,305 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:17:55,315 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:18:09,566 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:18:09,577 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:32:18,468 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:32:18,477 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:32:18,480 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:32:18,484 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:35:38,993 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:35:39,005 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:35:39,009 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:35:39,013 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:38:04,823 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:38:04,833 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:38:04,835 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:38:04,838 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:38:04,841 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:38:04,846 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:55:50,201 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:55:50,210 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:55:50,218 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:55:50,222 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:58:32,562 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:58:32,571 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 11:58:32,578 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 11:58:32,581 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:07:21,914 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:07:21,923 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:07:21,930 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:07:21,933 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:07:56,447 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:07:56,457 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:07:56,466 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:07:56,469 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:08:23,652 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:08:23,660 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:08:23,667 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:08:23,670 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:08:23,673 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:08:23,676 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:19:30,240 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:19:30,251 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:19:30,259 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:19:30,262 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:19:30,264 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:19:30,267 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:20:00,913 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:20:00,928 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:20:00,941 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:20:00,947 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:20:00,953 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:20:00,958 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:20:21,873 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:20:21,883 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:20:21,891 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:20:21,895 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:20:21,900 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:20:21,903 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:20:21,905 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:20:21,906 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:24:52,049 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:24:52,058 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:24:52,066 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:24:52,069 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:24:52,072 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:24:52,076 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:24:52,077 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:24:52,078 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:24:52,080 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:24:52,081 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:27:41,213 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:27:41,223 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:27:41,230 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:27:41,233 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:27:41,236 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:27:41,239 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:27:41,241 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:27:41,241 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:27:41,244 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:27:41,244 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:28:25,793 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:28:25,807 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:28:25,818 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:28:25,822 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:28:25,826 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:28:25,830 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:28:25,832 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:28:25,833 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:29:04,270 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:29:04,281 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:29:04,291 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:29:04,294 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:29:04,298 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:29:04,300 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:29:04,301 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:29:04,302 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:30:15,684 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:30:15,693 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:30:15,701 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:30:15,704 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:30:15,707 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:30:15,709 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:30:15,711 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:30:15,711 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:30:15,715 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:30:15,716 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:31:37,431 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:31:37,442 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:31:37,451 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:31:37,457 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:31:37,462 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:31:37,466 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:31:37,469 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:31:37,470 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:31:38,214 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:31:38,218 log :: 500 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:47:30,496 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:47:30,504 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:47:30,853 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:47:30,856 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:47:31,564 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:47:31,567 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 12:47:31,919 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:47:31,920 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 12:47:32,634 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 12:47:32,646 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:02:17,943 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:02:17,953 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:02:18,302 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:02:18,306 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:02:19,002 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:02:19,005 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:02:19,353 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:02:19,354 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 13:02:20,082 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:02:20,094 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:05:03,770 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:05:03,779 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:05:04,114 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:05:04,118 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:05:04,782 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:05:04,785 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:05:05,116 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:05:05,116 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 13:05:05,765 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:05:05,773 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:05:42,856 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:05:42,866 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:05:43,206 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:05:43,209 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:05:43,907 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:05:43,910 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:05:44,232 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:05:44,232 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 13:05:44,899 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:05:44,907 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:11:52,346 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:11:52,354 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:11:52,675 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:11:52,677 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:11:53,341 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:11:53,344 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:11:53,665 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:11:53,665 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 13:11:54,300 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:11:54,307 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:16:07,746 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:16:07,754 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:16:08,126 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:16:08,128 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:16:08,825 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:16:08,827 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:16:09,158 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:16:09,158 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 13:16:09,888 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:16:09,896 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:20:16,796 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:20:16,804 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:20:17,122 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:20:17,125 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:20:17,726 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:20:17,729 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:20:18,035 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:20:18,036 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 13:20:18,640 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:20:18,648 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:20:44,345 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:20:44,353 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:20:44,658 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:20:44,662 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:20:45,264 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:20:45,267 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:20:45,564 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:20:45,565 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 13:20:46,166 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:20:46,174 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:22:23,918 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:22:23,925 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:22:24,232 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:22:24,234 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:22:24,834 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:22:24,836 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:22:25,137 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:22:25,138 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 13:22:25,779 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:22:25,792 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:24:22,847 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:24:22,862 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:24:23,290 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:24:23,296 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:24:24,090 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:24:24,093 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:24:24,479 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:24:24,480 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 13:24:25,278 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:24:25,290 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:26:12,706 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:26:12,722 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:26:13,120 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:26:13,124 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:26:13,923 log :: GET | testserver/ | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:26:13,925 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
+INFO 2023-09-19 13:26:14,316 log :: GET | testserver/resource/1 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:26:14,317 log :: 302 | {'Content-Type': 'text/html; charset=utf-8', 'Location': '/user/login/?next=/resource/1'}
+INFO 2023-09-19 13:26:15,126 log :: GET | testserver/resource/6 | text/plain | Mozilla/5.0
+INFO 2023-09-19 13:26:15,139 log :: 200 | {'Content-Type': 'text/html; charset=utf-8'}
