@@ -13,7 +13,11 @@ class PostResourceForm(forms.Form):
     )  # type='text'
     link = forms.URLField()  # type='url'
     description = forms.CharField(widget=forms.Textarea)  # type='textarea'
-    category = forms.ChoiceField(widget=forms.RadioSelect, choices=generate_category_iterable())
-    tags = forms.ChoiceField(widget=forms.CheckboxSelectMultiple, choices=generate_tag_iterable(), required=False)
+    category = forms.ChoiceField(widget=forms.RadioSelect, choices=generate_category_iterable)
+    tags = forms.ChoiceField(widget=forms.CheckboxSelectMultiple, choices=generate_tag_iterable, required=False)
     
 #good way to create form
+# CATEGORIES = [
+#     ("1", "Programming Language"),
+#     ("2", "Databases")
+# ]
